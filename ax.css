@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Poppins", sans-serif;
+    color: #dfdfd8;
+}
+em{
+    color: tomato;
+}
+.container{
+    width: 100%;
+    min-height: 5rem;
+}
+header{
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+}
+.desktop-menu a:hover{
+    color: #ed563e;
+}
+header a:hover{
+    color: #ed563e;
+}
+.desktop-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    text-transform: uppercase;
+    background-color: rgba(12, 11, 11, 0.302);
+    color: white;
+}
+.desktop-menu h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-block: 1rem;
+}
+.desktop-menu ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 20px;
+}
+li{
+    display: inline;
+    padding:1rem ;
+    font-size: 1rem;
+    list-style-type:none;
+    color:white;
+}
+.desktop-menu li a{
+    text-decoration: none;
+    color: white;
+
+}
+.btn-nav{
+    padding: 15px 20px;
+    background-color:  #ed563e;
+    color: white;
+    border: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+.hamburger{
+    display: none;
+}
+.video-bac{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+ 
+}
+.video-bac video{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+.pr-video h2{
+    font-weight: 800;
+    font-size: 5.25rem;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+.pr-video h6{
+    font-size: 1.125rem;
+    font-weight: 800;
+}
+.pr-video .btn{
+    padding:  15px 20px;
+    background-color: #ed563e;
+    color: white;
+}
+.pr-video a{
+    text-decoration: none;
+}
+/* gym-br */
+.gym{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin-block: 5rem;
+    text-align: center;
+}
+.gym h2{
+    font-size: 1.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.gym p{
+    color: #7a7a7a;
+    font-size: 0.875rem;
+    line-height: 1.5625rem;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    gap: 20px;
+    margin-top: 4rem;
+}
+.list1{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    color: black;
+
+}
+.list1-pr a{
+    text-decoration: none;
+}
+.list1-pr h4{
+    font-size: 1.1875rem;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+.list1-pr{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+.list1-pr p{
+    font-size: 0.875rem;
+    color: #7a7a7a;
+
+
+}
+.list1 img{
+    width: 100px;
+    height: 100px;
+}
+/* GYM LIST 2*/
+.gym1 .gym-pr{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    color: black;
+    margin-block: 5rem;
+    text-align: center;
+}
+.gym1 .gym-pr h2{
+    font-size: 1.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.gym1 .gym-pr p{
+    color: #7a7a7a;
+    font-size: 0.875rem;
+    line-height: 1.5625rem;
+}
+.gym-all{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.gym-list2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+}
+.gym-all a{
+    text-decoration: none;
+}
+.gym-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.gym-list1 {
+    font-size: 1.1875rem;
+    font-weight: 600;
+    color: black;
+    padding: 25px 30px;
+}
+.gym-all #btn{
+    padding: 15px 20px;
+    background-color: #ed563e;
+    color: white;
+    border-radius: 10px;
+}
+.gym-list1{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 2px 5px rgba(161, 160, 160, 0.4);
+    border: 1px ;
+}
+
+.gym-list1 img{
+    width: 100px;
+    height: 50px;
+}
+.gym-list2 img{
+    width: 100%;
+    max-width: 100%;
+}
+.gym-list2 p{
+    color: #7a7a7a;
+    font-size: 0.875rem;
+    line-height: 1.5625rem;
+}
+.gym-list2 a{
+    padding:  15px 20px;
+    background-color: #ed563e;
+    color: white;
+    margin-top: 2rem;
+}
+.gym-list2 span{
+    margin-top: 1rem;
+}
+/* table */
+.gym-time{
+    background: linear-gradient(rgb(25, 25, 25,0.1),rgb(25, 25, 25,0.1)),
+    url(https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.gym-time .brof{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    margin-block: 5rem;
+    text-align: center;
+}
+ .gym-time .brof p{
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.5625rem
+ }
+.gym-time .brof h2{
+    font-size: 1.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.gym-days ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 0;
+    justify-content: center;
+}
+.gym-days li{
+    list-style-type:none;
+    color: white;
+    text-transform: capitalize;
+}
+.gym-table{
+    display: flex;
+    justify-content: center;
+}
+.gym-table tr{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(5,1fr);
+    
+}
+ td{
+    height: 100px;
+    width: 250px;
+    border: 1px solid white;
+    padding: 30px;
+}
+
+.brofile{
+    height: 50vh;
+    background: linear-gradient(rgb(25, 25, 25,0.1),rgb(25, 25, 25,0.1)),url(https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg) center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.brofile h2{
+    font-size: 2.25rem;
+}
+.brofile a{
+    text-decoration: none;
+    padding:  12px 20px;
+    background-color: #ed563e;
+    color: white;
+}
+.brofile p{
+    line-height: 1.5625rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+/* teach gym */
+.gym-tea .brof{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    color: black;
+    margin-block: 5rem;
+    text-align: center;
+}
+.gym-tea h2{
+    font-size: 1.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.gym-tea p{
+    color: #7a7a7a;
+    font-size: 1.3rem;
+    line-height: 1.5625rem;
+}
+.gym-ex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.gym-ex .prof{
+    width: 350px;
+    height: 500px;
+    padding: 40px;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(199, 198, 198);
+    color: black;
+    justify-content: center;
+    flex-direction: column;
+}
+.gym-ex .text h4{
+    font-size: 1.585rem;
+    font-weight: 600;
+    margin-bottom: 1.125rem;
+}
+
+.gym-ex p{
+    color: #7a7a7a;
+    font-weight: 400;
+    font-size: 0.875rem;
+
+}
+.gym-ex .logo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.gym-ex img{
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+}
+/* information */
+.information{
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.form-gym{
+    background: linear-gradient(rgb(25, 25, 25,0.1),rgb(25, 25, 25,0.1)),url(https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg);
+    width: 100%;
+    top: 0;
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.map{
+    width: 100%;
+    height: 500px;
+}
+iframe{
+    width: 100%;
+    height: 600px;
+}
+.field{
+    width: 80%;
+    padding:10px  20px;
+    height: 70%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-direction: column;
+    padding: 40px 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.form-gym .btn{
+    background-color: #ed563e;
+    padding:  10px 10px;
+}
+.inp{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+input{
+    width: 100%;
+    color: #7a7a7a;
+    font-size: 0.875rem;
+    border: 1px solid #7a7a7a;
+    padding: 10px 20px;
+}
+.text-ar input{
+    padding-bottom: 7rem;
+    width: 100%;
+    color: #7a7a7a;
+
+}
+footer{
+    color: black;
+    text-align: center;
+    width: 100%;
+    height:100%;
+    text-transform: capitalize;
+    
+}
+.form-gym a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:1024px){
+    .list{
+        width: 100%;
+        display: grid;
+        grid-template-columns:1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .gym-table tr{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows:repeat(5,1fr);
+        
+    }
+   
+    .gym-list1{width: 100%;}
+
+    .gym-ex .prof{
+        width: calc(100% - 40px);
+        margin-inline: auto;
+    }
+   
+    
+}
+@media(max-width:768px){
+    header{
+        height: 0;
+    }
+    .desktop-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+        text-align: center;
+        position: relative;
+        background-color: white;
+        transform: translateX(0%);
+        transition: transform 350ms ease-out;
+
+    }
+ 
+    .mobile-nav ul{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 10px 20px;
+        background-color: white;
+        width: 100%;
+        margin-inline: auto;
+        transition: transform 3s ease-in-out;
+    }
+   .mobile-nav ul:hover{
+    color: #ed563e;
+   }
+        
+    .mobile-nav li{
+        list-style-type: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+
+    }
+    .mobile-nav a{
+        text-decoration: none;
+        color: black;
+    }
+    .btn-mob{
+        padding: 10px 30px;
+        width: 100%;
+        border: none;
+        background-color: tomato;
+    }
+    .mobile-menu h1{
+        display: block;
+        margin-right: 1rem;
+        font-size: 2rem;
+        font-weight: 800;
+        color: black !important;
+    }
+    .hamburger{
+        display: flex;
+        width: 50px;
+        height: 50px;
+        margin-top: 1rem;
+        position: absolute;
+        color: #7a7a7a;
+        top: 0%;
+        padding: 0 10px;
+        right: 0%;
+        font-size: 1.6rem;
+    }
+    .hamburger i{
+        z-index: 111111;
+    }
+    .mobile-nav[data-visible="false"] {
+        transform: translateX(100%);
+    }
+
+    .hamburger i[data-visible="true"]{
+        display: block;
+    }
+
+    .hamburger i[data-visible="false"]{
+        display: none;
+    }
+    .pr-video h2{
+        font-size: 2.3rem;
+    }
+    .list{
+        display: grid;
+        grid-template-columns:1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .list1-pr{
+        width: 200px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+   .brofile{
+    width: 100%;
+    height: 100vh;
+   }
+   .gym-all{
+    width: 100%;
+    margin-inline: auto;
+   }
+   .gym-list1 {
+    width: 100%;
+    margin-inline: 5px;
+   }
+   .gym-list2 img{
+    width: 100%;
+    max-width: 100%;
+   }
+   .gym-table tr{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(5,1fr);
+}
+.gym-table td {
+    width: 100px;
+    height: 100px;
+}
+.information{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100vh;
+}
+
+    
+}
