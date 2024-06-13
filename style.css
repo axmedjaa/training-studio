@@ -315,13 +315,14 @@ li{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows:repeat(5,1fr);
+    border: 1px solid white;
     
 }
  td{
     height: 100px;
     width: 250px;
     border: 1px solid white;
-    padding: 30px;
+    padding: 20px;
 }
 
 .brofile{
@@ -504,6 +505,7 @@ footer{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows:repeat(5,1fr);
+        margin-inline:10px ;
         
     }
    
@@ -632,8 +634,12 @@ footer{
     width: 100%;
     max-width: 100%;
    }
+   .gym-time{
+    height: 100%;
+   }
    .gym-table tr{
     width: 100%;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows:repeat(5,1fr);
