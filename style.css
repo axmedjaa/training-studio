@@ -496,6 +496,7 @@ footer{
         display: grid;
         grid-template-columns:1fr;
         gap: 10px;
+        width: 100%;
     }
     .gym-table tr{
         width: 100%;
@@ -604,17 +605,13 @@ footer{
     .list{
         display: grid;
         grid-template-columns:1fr;
-        justify-content: center;
-        align-items: center;
         gap: 10px;
+        width: 100%;
     }
-    .list1-pr{
-        width: 200px;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+    .list1{
+        width: 100%;
     }
+   
    .brofile{
     width: 100%;
     height: 100vh;
@@ -654,4 +651,13 @@ footer{
 }
 
     
+}
+@media(max-width:480px){
+    .list1-pr{
+        width: 200px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
