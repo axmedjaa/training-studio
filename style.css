@@ -503,7 +503,6 @@ footer{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows:repeat(5,1fr);
-        margin-inline:10px ;
         
     }
    
@@ -659,5 +658,12 @@ footer{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+    .gym-table tr{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows:repeat(5,1fr);
     }
 }
