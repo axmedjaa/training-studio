@@ -320,9 +320,9 @@ li{
 }
  td{
     height: 100px;
-    width: 250px;
+    max-width: 250px;
+    width: 100%;
     border: 1px solid white;
-    padding: 20px;
 }
 
 .brofile{
@@ -499,14 +499,7 @@ footer{
         gap: 10px;
         width: 100%;
     }
-    .gym-table tr{
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows:repeat(5,1fr);
-        
-    }
+  
    
     .gym-list1{width: 100%;}
 
@@ -633,18 +626,8 @@ footer{
     height: 100%;
     width: 100%;
    }
-   .gym-table tr{
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows:repeat(5,1fr);
-}
-.gym-table td {
-    width: 100px;
-    height: 100px;
-}
+  
+
 .information{
     margin-top: 50px;
     display: grid;
