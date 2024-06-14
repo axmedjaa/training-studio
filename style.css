@@ -201,7 +201,6 @@ li{
 .gym-all{
     display: flex;
     flex-direction: row;
-    justify-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
@@ -224,7 +223,7 @@ li{
     font-size: 1.1875rem;
     font-weight: 600;
     color: black;
-    padding: 25px 30px;
+    padding: 25px 10px;
 }
 .gym-all #btn{
     padding: 15px 20px;
@@ -236,20 +235,20 @@ li{
     width: 350px;
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
     align-items: center;
     border-radius: 1rem;
     box-shadow: 0 2px 5px rgba(161, 160, 160, 0.4);
     border: 1px ;
+    
 }
 
 .gym-list1 img{
     width: 100px;
+    padding: 10px 30px;
     height: 50px;
 }
 .gym-list2 img{
     width: 100%;
-    max-width: 100%;
 }
 .gym-list2 p{
     color: #7a7a7a;
