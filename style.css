@@ -321,6 +321,10 @@ li{
     height: 100px;
     max-width: 250px;
     width: 100%;
+    text-align: center;
+    padding: 40px 50px;
+    font-size: 0.8125rem;
+    font-weight: 500;
     border: 1px solid white;
 }
 
@@ -629,6 +633,10 @@ footer{
     height: 100%;
     width: 100%;
    }
+   .gym-table td{
+    padding: 40px 30px;
+
+    }
   
 
 .information{
@@ -648,6 +656,10 @@ footer{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+    .gym-table td{
+    padding: 10px;
+
     }
    
 }
